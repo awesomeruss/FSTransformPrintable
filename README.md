@@ -32,7 +32,7 @@ As above, with these additional steps:
 
 
 ### Import the integrations and test form
-1. In your Firmstep system, under Admin>Integrations, import the `/json/Transform Printable IntegrationList.json` file. All of the integrations in this file will be placed in the `Transform Printable` category
+1. In your Firmstep system, under Admin>Integrations, import the `/json/integrations` files. All of the integrations will be placed in the `Transform Printable` category
 2. Edit each of the imported integrations and set it to use the correct LIM. 
 3. If you installed the web application in a location other than the LIM server, adjust the hostname in the `Transform Printable HTTP` integration's URL. If using .net core, set the URL to `http://localhost/transformPrintable/api/transform`
 4. The TransformPrintable renders maps using Google maps, and needs an API key for this purpose. To configure this behaviour, you will need an [API Key](https://developers.google.com/maps/documentation/javascript/get-api-key). In Admin>Tokens, create a token called `gmaps_key`. For evaluation use, this Awesome Consulting key can be used: `AIzaSyDtTfcN54kfBVp73QBDb_eCKMvUvVqL3Es`. Please get your own free key for production systems.
