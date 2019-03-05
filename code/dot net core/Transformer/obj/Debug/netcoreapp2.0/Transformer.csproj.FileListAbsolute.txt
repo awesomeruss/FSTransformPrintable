@@ -1,0 +1,32 @@
+c:\users\russ\source\repos\Transformer\Transformer\bin\Debug\netcoreapp2.0\Transformer.deps.json
+c:\users\russ\source\repos\Transformer\Transformer\bin\Debug\netcoreapp2.0\Transformer.runtimeconfig.json
+c:\users\russ\source\repos\Transformer\Transformer\bin\Debug\netcoreapp2.0\Transformer.runtimeconfig.dev.json
+c:\users\russ\source\repos\Transformer\Transformer\bin\Debug\netcoreapp2.0\Transformer.dll
+c:\users\russ\source\repos\Transformer\Transformer\bin\Debug\netcoreapp2.0\Transformer.pdb
+c:\users\russ\source\repos\Transformer\Transformer\obj\Debug\netcoreapp2.0\Transformer.csprojResolveAssemblyReference.cache
+c:\users\russ\source\repos\Transformer\Transformer\obj\Debug\netcoreapp2.0\Transformer.csproj.CoreCompileInputs.cache
+c:\users\russ\source\repos\Transformer\Transformer\obj\Debug\netcoreapp2.0\Transformer.AssemblyInfoInputs.cache
+c:\users\russ\source\repos\Transformer\Transformer\obj\Debug\netcoreapp2.0\Transformer.AssemblyInfo.cs
+c:\users\russ\source\repos\Transformer\Transformer\obj\Debug\netcoreapp2.0\Transformer.dll
+c:\users\russ\source\repos\Transformer\Transformer\obj\Debug\netcoreapp2.0\Transformer.pdb
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.deps.json
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.runtimeconfig.json
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.runtimeconfig.dev.json
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.dll
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.pdb
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.csprojResolveAssemblyReference.cache
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.csproj.CoreCompileInputs.cache
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.AssemblyInfoInputs.cache
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.AssemblyInfo.cs
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.dll
+M:\Customers\Ocorian\Transform printable\C-transform-printable-1.0.0\C-transform-printable-1.0.0\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.pdb
+C:\Git-base\C-transform-printable\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.deps.json
+C:\Git-base\C-transform-printable\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.runtimeconfig.json
+C:\Git-base\C-transform-printable\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.runtimeconfig.dev.json
+C:\Git-base\C-transform-printable\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.dll
+C:\Git-base\C-transform-printable\2code\Transformer\bin\Debug\netcoreapp2.0\Transformer.pdb
+C:\Git-base\C-transform-printable\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.csproj.CoreCompileInputs.cache
+C:\Git-base\C-transform-printable\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.AssemblyInfoInputs.cache
+C:\Git-base\C-transform-printable\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.AssemblyInfo.cs
+C:\Git-base\C-transform-printable\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.dll
+C:\Git-base\C-transform-printable\2code\Transformer\obj\Debug\netcoreapp2.0\Transformer.pdb
