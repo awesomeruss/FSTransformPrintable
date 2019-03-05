@@ -1,0 +1,16 @@
+[
+    {
+        "Editable": true,
+        "ID": "5ae9dd69ad563",
+        "Name": "Transform Printable generic info message",
+        "Type": "EMAIL",
+        "LIM_id": "d30bf226-4834-11e6-b300-22000b13f019",
+        "LIM_name": "Local LIM",
+        "Category": "Transform Printable",
+        "data_type": "integration",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"subject\":\"{process_name} - {stage_name} - {case_ref}\",\"fromName\":\"Firmstep Notifications\",\"from\":\"firmstep.user1@awesomeconsulting.co.uk\",\"recipients_to\":\"{infomsgrecipient}\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"5ab8fa7d0e41b\",\"body\":\"<div>{#infomsg}</div>\",\"attachments\":\"\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"\"}"
+    }
+]
