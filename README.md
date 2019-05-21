@@ -64,4 +64,4 @@ There is a simple way to achieve this, by making these changes to the second sta
 - Add a creation integration that calls the `Transform Printable backup response` integration. This will copy the content from `response` that was generated as stage 1 was submitted into the new `response2` field.
 - Use the TransformPrintable as normal on stage 2. The PDF will include the content of {response2} prior to {response} - and hence the original application content will appear before the approval content.
 
-Repeat the technique as required for more stages by adding fields called `response3` and `response4`.
+Repeat the technique as required for more stages by adding fields called `response3` and `response4`. 
