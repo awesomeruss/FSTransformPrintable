@@ -12,6 +12,7 @@ public class transformmodel
 {
     public String input;
     public String xslt;
+    public String htmldecode = "TRUE";
 }
 
 namespace framework_xslt3.Controllers
@@ -38,15 +39,21 @@ namespace framework_xslt3.Controllers
                         proc.Load(xr);
                     }
                 }
-                using (StringReader sr = new StringReader(System.Net.WebUtility.HtmlDecode(value.input.ToString())))
+                String valueinput = value.input.ToString();
+                if (value.htmldecode.ToUpper() == "TRUE")
+                {
+                    valueinput = System.Net.WebUtility.HtmlDecode(valueinput);
+                }
+
+                using (StringReader sr = new StringReader(valueinput))
                 {
                     using (XmlReader xr = XmlReader.Create(sr))
                     {
                         using (StringWriter sw = new StringWriter())
                         {
                             proc.Transform(xr, null, sw);
-                            var hrm= new HttpResponseMessage(HttpStatusCode.OK);
-                            hrm.Content = new StringContent(sw.ToString(), System.Text.Encoding.UTF8, "text/html"); 
+                            var hrm = new HttpResponseMessage(HttpStatusCode.OK);
+                            hrm.Content = new StringContent(sw.ToString(), System.Text.Encoding.UTF8, "text/html");
                             return hrm;
                         }
                     }
@@ -56,7 +63,7 @@ namespace framework_xslt3.Controllers
             {
                 var hrm = new HttpResponseMessage(HttpStatusCode.InternalServerError);
                 hrm.Content = new StringContent(ex.ToString(), System.Text.Encoding.UTF8, "text/html");
-                return hrm; 
+                return hrm;
             }
         }
 
