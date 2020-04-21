@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5adf0504cad3e",
+        "Name": "Transform Printable combine response",
+        "Type": "DATABASE",
+        "LIM_id": "3f07ecf4-0dfa-11e2-b0b9-12313b03ed59",
+        "Editable": true,
+        "LIM_name": "LIM14",
+        "Category": "Transform Printable",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"systemID\":\"59ae40d9982d5\",\"systemName\":\"Firmstep Solutions Read\",\"query\":\"select\\n\\tconcat(coalesce(concat({response_full},'<hr/>'),''),'<h2>',{stage_name},' at ',date_format(now(),'%d/%m/%Y %H:%i'),' by ',\\n\\t\\tcase when {FAM_givenName}<>'' then concat({FAM_givenName}, ' ',{FAM_sn}) else {user_name} end,'</h2>',{response}) \\n\\n as response_full\",\"results_page_columns_db\":\"\",\"secure_fields_db_database\":\"\",\"escapeTokens\":\"yes\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"\"}"
+    }
+]

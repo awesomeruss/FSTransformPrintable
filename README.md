@@ -47,21 +47,12 @@ As above, with these additional steps:
 
 ## Usage
 Each form that uses the TransformPrintable will need:
-- a hidden text area field called `response`
+- hidden, non mandatory text area fields called `response` and `response_full`
 - a pre-submission integration to run the `Transform Printable HTTP` integration
-- to use the `TransformPrintable PDF` integration to generate printable files where they are needed - e.g. as email attachments or in file integrations.
+- a pre-submission integration to run the `Transform Combine Response` integration
+- to use the `Transform Printable PDF` or `Transform Printable Full PDF` integration to generate printable files where they are needed - e.g. as email attachments or in file integrations. The full one includes all previous tasks, the standard one is just for the most recently submitted task.
 
 ### Static text
 The `{xml_data}` token that is used by the transformPrintable does not include any static fields from the form, so it is not possible for the PDF to include this content directly - however there is a work-around:
 - Add a hidden text or textarea field to your form that has the static text as its default value. Set the caption to be `h1`, `h2`, `h3` or `para` - this will cause the content to be displayed like static text in the PDF. The data name of such fields is not important to the transformPrintable.
 - You could then edit the static content field on the form, and replace the content text with a `{token}` reference to your hidden text or textarea field. This will mean that the electronic and PDF versions of the form will always have identical static content.
-
-### Multi-stage Workflow
-Consider a workflow process that has a large, complex first stage where an applicant fills in a lot of detail. Subsequent stages are simple, prompting only for approval information. The 'Case View' feature is used to allow approvers to see the original stage 1 submission. We want to create a PDF at the end of the process, showing all the details of the original application and the subsequent approvals.
-
-There is a simple way to achieve this, by making these changes to the second stage:
-- Add hidden text area field called `response2`, in addition to `response`
-- Add a creation integration that calls the `Transform Printable backup response` integration. This will copy the content from `response` that was generated as stage 1 was submitted into the new `response2` field.
-- Use the TransformPrintable as normal on stage 2. The PDF will include the content of {response2} prior to {response} - and hence the original application content will appear before the approval content.
-
-Repeat the technique as required for more stages by adding fields called `response3` and `response4`. 

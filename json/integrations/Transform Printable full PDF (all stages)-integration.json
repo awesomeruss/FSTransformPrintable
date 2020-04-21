@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5e9ef93f705b9",
+        "Name": "Transform Printable full PDF (all stages)",
+        "Type": "PRINTABLE",
+        "LIM_id": "3f07ecf4-0dfa-11e2-b0b9-12313b03ed59",
+        "Editable": true,
+        "LIM_name": "LIM14",
+        "Category": "Printable",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"name\":\"{reference}\",\"remove_margins\":\"\",\"setPaperType\":\"a4\",\"content\":\"<style type=\\\"text/css\\\"><!--\\nh1, .htmlsummary > div{\\n  font-family:Arial, 'Open Sans',sans-serif;\\n  margin:0px;\\n  font-size:0.8em;\\n}\\n.h1, h1 { \\n  color: #00aa87; \\n  font-size:1.3em;\\n}\\n.h2, h2 { \\n  color: #00aa87; \\n  font-size:1.2em;\\n}\\n.h3, h3 { \\n  color: #00aa87; \\n  font-size:1.1em;\\n}\\n.h4, h4 { \\n  color: #00aa87; \\n  font-size:1em;\\n}\\n\\n.htmlsummary .section{\\n  border-radius:5px; \\n  padding:5px; \\n  margin:2px; \\n  background-color: #DDD;\\n}\\n\\n.htmlsummary .section > .section{\\n  border-radius:0px; \\n  padding:0px; \\n  margin:0px; \\n}\\n\\n.htmlsummary div.field{\\n  zborder-bottom:1px #EEE solid; \\n}\\n\\n.htmlsummary .section .section .sectionheading, .htmlsummary .hidden {\\n  display:none;\\n}\\n\\n\\n.htmlsummary div.sectionheading{\\n  font-size:1.2em;\\n  color: #00aa87;\\n}\\n .htmlsummary div.caption,  .htmlsummary div.sectionheading{\\n  font-weight:bold; \\n}\\n .htmlsummary div.caption, .htmlsummary div.value {\\n  vertical-align: top;\\n  display: inline-block;\\n  font-size:0.9em;\\n}\\n.htmlsummary div.subformheading, .htmlsummary div.subformrecordheader{\\n  color:white;\\n}\\n\\n.htmlsummary div.value{\\n  color: #4A4F54;\\n  background-color:white;\\n  width: 420px;\\n  margin:1px;\\n  margin-left:3px;\\n  padding:1px;\\n  border-radius:2px;\\n}\\n.htmlsummary div.caption{\\n  width:220px; \\n/*  text-align:right; */\\n}\\n.htmlsummary div.para div.value,.htmlsummary div.h1 div.value,.htmlsummary div.h2 div.value,.htmlsummary div.h3 div.value,.htmlsummary div.h4 div.value{\\n  background-color: #DDD;\\n  width:640px; \\n}\\n.htmlsummary .subform div.caption{\\n  width:203px; \\n}\\n\\n.subform {width:96%; \\n  margin:5px;\\n  background-color:gray;\\n  padding:5px;\\n  border-radius:5px;\\n}\\n.subformrecord {\\n  padding:0px;\\n  margin:0px;}\\n.subformheader{\\n  background-color: #00aa87;\\n  color: #FFF;\\n  padding: 3px 10px;\\n  text-align:left; \\n  font-weight:bold; \\n}\\n\\n.subformvalue{\\n  color: #4A4F54;\\n  border:1px #00aa87 solid; \\n  padding: 3px 10px;\\n  margin:0px;\\n}\\n\\n-->\\n</style>\\n<div class=\\\"htmlsummary {process_name}\\\">\\n<h1>{process_name}&nbsp;<br />\\n{reference}</h1>\\n{#response_full}</div>\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"5a53627a149ae\",\"LIM_name\":\"CBC LIM\",\"recipients_to\":\"\"}"
+    }
+]
